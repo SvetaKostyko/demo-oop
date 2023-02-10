@@ -6,7 +6,7 @@ public class Customer {
     private String name;
     private String patronymic;
     private String address;
-    private int numberOfCard;
+    private long numberOfCard;
     private long numberOfBankAccount;
 
     public void setId(int id) {
