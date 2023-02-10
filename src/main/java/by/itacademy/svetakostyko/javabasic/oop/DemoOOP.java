@@ -8,6 +8,8 @@ public class DemoOOP {
         cast.setName("Ivan");
         cast.setPatronymic("Ivanovich");
         cast.setAddress("ul. Brestskaya 125/15");
-        cast.setNumberOfCard(12345);
+        cast.setNumberOfCard(1234567832);
+        cast.setNumberOfBankAccount(1234567896);
     }
+
 }
