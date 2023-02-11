@@ -36,4 +36,32 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getPublishingHouse() {
+        return publishingHouse;
+    }
+
+    public int getYearOfPublish() {
+        return yearOfPublish;
+    }
+
+    public int getQuantityOfPages() {
+        return quantityOfPages;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }

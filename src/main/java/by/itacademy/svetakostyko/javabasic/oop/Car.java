@@ -34,4 +34,32 @@ public class Car {
     public void setRegistrationNumber(String registrationNumber) {
         this.registrationNumber = registrationNumber;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getCarBrand() {
+        return carBrand;
+    }
+
+    public String getModelOfCar() {
+        return modelOfCar;
+    }
+
+    public int getYearOfProduction() {
+        return yearOfProduction;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getRegistrationNumber() {
+        return registrationNumber;
+    }
 }

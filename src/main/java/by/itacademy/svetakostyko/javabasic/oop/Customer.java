@@ -20,6 +20,7 @@ public class Customer {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setPatronymic(String patronymic) {
         this.patronymic = patronymic;
     }
@@ -34,5 +35,33 @@ public class Customer {
 
     public void setNumberOfBankAccount(long numberOfBankAccount) {
         this.numberOfBankAccount = numberOfBankAccount;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPatronymic() {
+        return patronymic;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public long getNumberOfCard() {
+        return numberOfCard;
+    }
+
+    public long getNumberOfBankAccount() {
+        return numberOfBankAccount;
     }
 }
