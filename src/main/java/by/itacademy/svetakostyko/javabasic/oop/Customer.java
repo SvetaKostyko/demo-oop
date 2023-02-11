@@ -29,7 +29,7 @@ public class Customer {
         this.address = address;
     }
 
-    public void setNumberOfCard(int numberOfCard) {
+    public void setNumberOfCard(long numberOfCard) {
         this.numberOfCard = numberOfCard;
     }
 
