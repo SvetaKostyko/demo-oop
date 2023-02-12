@@ -9,59 +9,26 @@ public class Book {
     private int quantityOfPages;
     private double price;
 
-    public void setId(int id) {
+    public Book(int id, String title, String author, String publishingHouse, int yearOfPublish, int quantityOfPages, double price) {
         this.id = id;
-    }
-
-    public void setTitle(String title) {
         this.title = title;
-    }
-
-    public void setAuthor(String author) {
         this.author = author;
-    }
-
-    public void setPublishingHouse(String publishingHouse) {
         this.publishingHouse = publishingHouse;
-    }
-
-    public void setYearOfPublish(int yearOfPublish) {
         this.yearOfPublish = yearOfPublish;
-    }
-
-    public void setQuantityOfPages(int quantityOfPages) {
         this.quantityOfPages = quantityOfPages;
-    }
-
-    public void setPrice(double price) {
         this.price = price;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public String getPublishingHouse() {
-        return publishingHouse;
-    }
-
-    public int getYearOfPublish() {
-        return yearOfPublish;
-    }
-
-    public int getQuantityOfPages() {
-        return quantityOfPages;
-    }
-
-    public double getPrice() {
-        return price;
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", publishingHouse='" + publishingHouse + '\'' +
+                ", yearOfPublish=" + yearOfPublish +
+                ", quantityOfPages=" + quantityOfPages +
+                ", price=" + price +
+                '}';
     }
 }
