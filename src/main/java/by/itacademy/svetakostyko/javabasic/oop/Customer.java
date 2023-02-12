@@ -9,6 +9,16 @@ public class Customer {
     private long numberOfCard;
     private long numberOfBankAccount;
 
+    public Customer(int id, String surname, String name, String patronymic, String address, long numberOfCard, long numberOfBankAccount){
+        this.id = id;
+        this.surname = surname;
+        this.name = name;
+        this.patronymic = patronymic;
+        this.address = address;
+        this. numberOfCard = numberOfCard;
+        this.numberOfBankAccount = numberOfBankAccount;
+    }
+
     public void setId(int id) {
         this.id = id;
     }
@@ -38,33 +48,6 @@ public class Customer {
     }
 
     public int getId() {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         return id;

@@ -5,26 +5,27 @@ import com.github.javafaker.Name;
 
 public class DemoOOP {
     public static void main(String[] args) {
-        Customer customer = new Customer();
-        customer.setId(1236);
 
-        Faker faker = new Faker();
-        Name name1 = faker.name();
-        String name = name1.firstName();
-        String lastName = name1.lastName();
-        customer.setPatronymic("Ivanovich");
-        String address = faker.address().streetAddress();
-        String houseNumber = faker.address().streetAddressNumber();
-        customer.setNumberOfCard(1234567890123456L);
-        customer.setNumberOfBankAccount(1236_5478_9632_58L);
+        Customer customerA = new Customer(1236, "Ivanov", "Ivan", "Ivanovich", "Brestskaya street, 56/25", 1234567890123456L, 1236_5478_9632_58L);
+        Customer customerB = new Customer(1236, "Ivanov", "Ivan", "Ivanovich", "Brestskaya street, 56/25", 1234567890123456L, 1236_5478_9632_58L);
 
-        System.out.println(customer.getId());
-        System.out.println("Name - " + name);
-        System.out.println("Last name - " + lastName);
-        System.out.println(customer.getPatronymic());
-        System.out.println("Address - " + address + houseNumber);
-        System.out.println(customer.getNumberOfCard());
-        System.out.println(customer.getNumberOfBankAccount());
+//        Faker faker = new Faker();
+//        Name name1 = faker.name();
+//        String name = name1.firstName();
+//        String lastName = name1.lastName();
+//        customer.setPatronymic("Ivanovich");
+//        String address = faker.address().streetAddress();
+//        String houseNumber = faker.address().streetAddressNumber();
+//        customer.setNumberOfCard(1234567890123456L);
+//        customer.setNumberOfBankAccount(1236_5478_9632_58L);
+//
+//        System.out.println(customer.getId());
+//        System.out.println("Name - " + name);
+//        System.out.println("Last name - " + lastName);
+//        System.out.println(customer.getPatronymic());
+//        System.out.println("Address - " + address + houseNumber);
+//        System.out.println(customer.getNumberOfCard());
+//        System.out.println(customer.getNumberOfBankAccount());
 
         Book book = new Book();
         book.setId(10857656);
@@ -57,7 +58,6 @@ public class DemoOOP {
         System.out.println(car.getColor());
         System.out.println(car.getPrice());
         System.out.println(car.getRegistrationNumber());
-
 
 
     }
