@@ -19,61 +19,16 @@ public class Customer {
         this.numberOfBankAccount = numberOfBankAccount;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setPatronymic(String patronymic) {
-        this.patronymic = patronymic;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public void setNumberOfCard(long numberOfCard) {
-        this.numberOfCard = numberOfCard;
-    }
-
-    public void setNumberOfBankAccount(long numberOfBankAccount) {
-        this.numberOfBankAccount = numberOfBankAccount;
-    }
-
-    public int getId() {
-
-
-        return id;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getPatronymic() {
-        return patronymic;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public long getNumberOfCard() {
-        return numberOfCard;
-    }
-
-    public long getNumberOfBankAccount() {
-        return numberOfBankAccount;
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", surname='" + surname + '\'' +
+                ", name='" + name + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", address='" + address + '\'' +
+                ", numberOfCard=" + numberOfCard +
+                ", numberOfBankAccount=" + numberOfBankAccount +
+                '}';
     }
 }
