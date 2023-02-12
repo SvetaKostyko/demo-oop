@@ -7,31 +7,20 @@ public class DemoOOP {
     public static void main(String[] args) {
 
         Customer customerA = new Customer(1236, "Ivanov", "Petr", "Ivanovich", "Brestskaya street, 56/25", 1234567890123456L, 1236_5478_9632_58L);
-        Customer customerC = null;
-        Customer customerB = new Customer(1236, "Ivanov", "Ivan", "Ivanovich", "Brestskaya street, 56/25", 1234567890123456L, 1236_5478_9632_58L);
+        Customer customerB = new Customer(1238, "Ivanov", "Ivan", "Ivanovich", "Brestskaya street, 56/25", 1234567890123456L, 1236_5478_9632_58L);
         System.out.println(customerA);
         System.out.println(customerB);
-        System.out.println(customerA.equals(null));
+        System.out.println(customerA.equals(customerB));
 
 
+        Book book1 = new Book(10857656, "Ten little Indians", "Agatha Kristy", "Eksmo", 2021, 288, 11.84);
+        Book book2 = new Book(10857658, "The Witches of Eastwick", "John Updike", "Kapo", 	2019, 192, 13.84);
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(book1.equals(book2));
 
-/*        Book book = new Book();
-        book.setId(10857656);
-        book.setTitle("Ten little Indians");
-        book.setAuthor("Agatha Kristy");
-        book.setPublishingHouse("Eksmo");
-        book.setYearOfPublish(2021);
-        book.setPrice(11.84);
-        book.setQuantityOfPages(288);
-        System.out.println(book.getId());
-        System.out.println(book.getTitle());
-        System.out.println(book.getAuthor());
-        System.out.println(book.getPublishingHouse());
-        System.out.println(book.getYearOfPublish());
-        System.out.println(book.getPrice());
-        System.out.println(book.getQuantityOfPages());
 
-        Car car = new Car();
+     /*   Car car = new Car();
         car.setId(103174396);
         car.setCarBrand("Skoda");
         car.setModelOfCar("Kodiaq");
@@ -45,8 +34,8 @@ public class DemoOOP {
         System.out.println(car.getYearOfProduction());
         System.out.println(car.getColor());
         System.out.println(car.getPrice());
-        System.out.println(car.getRegistrationNumber());*/
-
+        System.out.println(car.getRegistrationNumber());
+*/
     }
 
 }
